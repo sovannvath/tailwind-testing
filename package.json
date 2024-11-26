@@ -1,0 +1,19 @@
+{
+  "name": "my-tailwind-project",
+  "version": "1.0.0",
+  "description": "A simple project using Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server index.html",
+    "build": "tailwindcss build src/input.css -o dist/output.css",
+    "watch": "tailwindcss build src/input.css -o dist/output.css --watch"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.3.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
